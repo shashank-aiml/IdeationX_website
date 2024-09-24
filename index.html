@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IdeationX</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+ 
+     <!--=============== REMIXICONS ===============-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+
+     <!--=============== SWIPER CSS ===============-->
+     <link rel="stylesheet" href="/css/swiper-bundle.min1.css">
+
+     <!--=============== CSS ===============-->
+     <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="jquery.hislide.min.css">
+  <link rel="stylesheet" href="style4.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap-grid.min.css" integrity="sha512-ZuRTqfQ3jNAKvJskDAU/hxbX1w25g41bANOVd1Co6GahIe2XjM6uVZ9dh0Nt3KFCOA061amfF2VeL60aJXdwwQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+  <link
+  href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round|Material+Icons+Sharp|Material+Icons+Two+Tone"
+  rel="stylesheet"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+  rel="stylesheet"
+/>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="hero">
+  <nav>
+ <div class="wrapper">
+    <div class="logo"><a href="#"></a></div>
+    <input type="radio" name="slider" id="menu-btn">
+    <input type="radio" name="slider" id="close-btn">
+    <ul class="nav-links">
+      <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+      <li><a class="Active"href="#home">Home</a></li>
+   
+      <li>
+        <a href="#about" class="desktop-item">About Us</a>
+        <input type="checkbox" id="showDrop">
+        <label for="showDrop" class="mobile-item">Dropdown Menu</label>
+        <ul class="drop-menu">
+          <li><a href="term.html">Term & Conditions</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+      
+          
+        </ul>
+      </li>
+      <li><a href="#service">Service</a></li>
+      <li>
+        <a href="#blogs" class="desktop-item">Blogs</a>
+        <input type="checkbox" id="showMega">
+        <label for="showMega" class="mobile-item">Mega Menu</label>
+        <!-- <div class="mega-box">
+          <div class="content">
+            <div class="row">
+              <img src="https://fadzrinmadu.github.io/hosted-assets/responsive-mega-menu-and-dropdown-menu-using-only-html-and-css/img.jpg" alt="">
+            </div>
+            <div class="row">
+              <header>Design Services</header>
+              <ul class="mega-links">
+                <li><a href="#">Graphics</a></li>
+                <li><a href="#">Vectors</a></li>
+                <li><a href="#">Business cards</a></li>
+                <li><a href="#">Custom logo</a></li>
+              </ul>
+            </div>
+            <div class="row">
+              <header>Email Services</header>
+              <ul class="mega-links">
+                <li><a href="#">Personal Email</a></li>
+                <li><a href="#">Business Email</a></li>
+                <li><a href="#">Mobile Email</a></li>
+                <li><a href="#">Web Marketing</a></li>
+              </ul>
+            </div>
+            <div class="row">
+              <header>Security services</header>
+              <ul class="mega-links">
+                <li><a href="#">Site Seal</a></li>
+                <li><a href="#">VPS Hosting</a></li>
+                <li><a href="#">Privacy Seal</a></li>
+                <li><a href="#">Website design</a></li>
+              </ul>
+            </div>
+          </div>
+        </div> -->
+      </li>
+      
+      <li><a href="contactform.html">Contact Us</a></li>
+    </ul>
+    <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+  </div>
+</nav>
+<div class="body-text">
+  <div class="title"> Navigating the Path</div><h2 class="h2"><br> from <span>Vision </span> to <span>Vibrancy </span> </h2> 
+  <div class="sub-title"><h1>we specialize in assembling and guiding </h1><br> a team of excellent developers,<br>transforming your aspiration <br>into a dynamic reality.</div>
+</div>
+
+<div class="section" id="home">
+
+      </div>
+</div>
+
+<div class="about" id="about">
+  <p class="text"> About Us</p>
+  <video autoplay loop muted plays-inline>
+    <source src="Ideationx about us new 1.mp4" type="video/mp4">
+   </video>
+  <P class="text1">
+    This is IdeationX- A place for those who dare to <br> redefine what’s possible in digital landscape.
+    </P>
+    <p class="line2">This is IdeationX- A place for those who dare to redefine what’s possible <br>in digital landscape.We at  IdeationX, create  an ambience where imagin<br>ation meets innovation, and dreams transform into digital reality. In the<br> vast landscape of technology, we are not just a company; we are archit<br>ects of possibility, weaving brilliance into every line of code and pixel of <br>design. we don't just build software; we sculpt experiences that resonate.
+</p>
+
+<div class="service" id="service">
+
+  <div class="body1">
+    <div class="center">
+      <div class="title1">
+        Our Service
+      </div>
+      <div class="carousel">
+        <div class="controls">
+          <button type="button" class="btn" onclick="moveLeft()">
+            <span class="material-icons-outlined">arrow_back_ios</span>
+          </button>
+       
+          
+          </button>
+          <button type="button" class="btn" onclick="moveRight()">
+            <span class="material-icons-outlined">arrow_forward_ios</span>
+          </button>
+        </div>
+        <div class="slide-center">
+          <div class="slider">
+            <a href="contactform.html">
+            <div class="slide active">
+              <img src="1.png" alt="" />
+            </div>
+            </a>
+            <a href="contactform.html">
+            <div class="slide">
+              <img src="2.png" alt="" />
+             
+            </div>
+            </a>
+            <a href="contactform.html">
+            <div class="slide">
+              <img src="3.png" alt="" />
+             
+            </div>
+            </a>
+
+            <a href="contactform.html">
+            <div class="slide">
+              <img src="4.png" alt="" />
+          
+            </div>
+            </a>
+
+            <a href="contactform.html">
+            <div class="slide">
+              <img src="5.png" alt="" />
+           
+            </div>
+            </a>
+
+            <a href="contactform.html">
+            <div class="slide">
+              <img src="6.png" alt="" />
+            
+            </div>
+
+            </a>
+
+            <a href="contactform.html">
+            <div class="slide">
+              <img src="7.png" alt="" />
+             
+            </div>
+            </a>
+
+            <a href="contactform.html">
+            <div class="slide">
+              <img src="8.png" alt="" />
+             
+            </div>
+
+            </a>
+
+            <a href="contactform.html">
+            <div class="slide">
+              <img src="9.png" alt="" />
+          
+            </div>
+            </a>
+
+            <a href="contactform.html">
+            <div class="slide">
+              <img src="10.png" alt="" />
+             
+            </div>
+            </a>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+		
+</div>
+
+  
+  <div class="b">
+    <div class="cards" style="display: none;">
+
+      <div class="card">
+        <div class="card__image-holder">
+          <img class="card__image" src="https://img.freepik.com/free-vector/customer-support-flat-illustration_23-2148892786.jpg?w=996&t=st=1703694327~exp=1703694927~hmac=bc3583ed2f4bfb086a2a7dd89453596273e7535debaee9ca4727cb8b79aabd83" alt="wave" />
+        </div>
+        <div class="card-title">
+          <a href="#" class="toggle-info btn">
+            <span class="left"></span>
+            <span class="right"></span>
+          </a>
+          <h2>
+              Our Vision
+             
+          </h2>
+        </div>
+        <div class="card-flap flap1">
+          <div class="card-description">
+            Empowering your aspirations is at the core of what we do. 
+          </div>
+          <div class="card-flap flap2">
+            <div class="card-actions">
+              <a href="#" class="btn">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="card">
+        <div class="card__image-holder">
+          <img class="card__image" src="https://img.freepik.com/free-vector/blogging-concept-illustration_114360-1038.jpg?w=740&t=st=1703694285~exp=1703694885~hmac=f9b1d5ab4afedd7a25992b1bfc53f99d48bbe2561e8ef923776dbebc62552e3b" alt="beach" />
+        </div>
+        <div class="card-title">
+          <a href="#" class="toggle-info btn">
+            <span class="left"></span>
+            <span class="right"></span>
+          </a>
+          <h2>
+            Who We Are
+             
+          </h2>
+        </div>
+        <div class="card-flap flap1">
+          <div class="card-description">
+            IdeationX is more than a team; we're a family of passionate individuals.
+          </div>
+          <div class="card-flap flap2">
+            <div class="card-actions">
+              <a href="#" class="btn">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="card">
+        <div class="card__image-holder">
+          <img class="card__image" src="https://img.freepik.com/free-vector/happy-freelancer-with-computer-home-young-man-sitting-armchair-using-laptop-chatting-online-smiling-vector-illustration-distance-work-online-learning-freelance_74855-8401.jpg?w=1060&t=st=1703694361~exp=1703694961~hmac=86a93cdbf27e7aa8237cd9beb86577798952f744bba2b0ef7fac9baef2d4895a" alt="mountain" />
+        </div>
+        <div class="card-title">
+          <a href="#" class="toggle-info btn">
+            <span class="left"></span>
+            <span class="right"></span>
+          </a>
+          <h2>
+              How We Work
+              
+          </h2>
+        </div>
+        <div class="card-flap flap1">
+          <div class="card-description">
+            From strategic planning to code execution, every step of our design and development process is infused with innovation. 
+          </div>
+          <div class="card-flap flap2">
+            <div class="card-actions">
+              <a href="#" class="btn">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="hero2">
+      <p class="lines">Feature Resources</p>
+
+     
+   </div>
+   
+    
+    </div>
+  </div>
+
+<div class="case">
+    <p class="std">Recent Case Studies</p>
+  <div class="std1">
+    <p class="txt2"> Embarking on a transformative journey,  we at IdeationX harnessed the power of<br> DevOps to revolutionize our software development processes. Faced with challen<br>ges of disjointed workflows and sluggish releases, we initiated a strategic DevOps<br> overhaul. 
+     By fostering collaboration between our development and operations te<br>ams and implementing automated CI/CD pipelines, we witnessed a remarkable <br>shift in efficiency. Deployment times were significantly reduced, and the frequency <br>of releases soared, enabling us to respond swiftly to market demands. 
+      This unveils <br>the strategic decisions, challenges overcome, and the tangible benefits realized <br> through the seamless fusion of Development and Operations.
+      IdeationX stands as a <br> testament to the power of DevOps in driving continuous innovation and delivering <br>exceptional software solutions that exceed client’s expectations.
+      </p>
+    <div class="stdim1"></div>
+  </div>
+  <!-- <div class="std2">
+    <p class="txt2"></p>
+    <div class="stdim2"></div>
+  </div>
+  <div class="std3">
+    <p class="txt3"></p>
+    <div class="stdim3"></div>
+  </div> -->
+  
+ </div>
+
+
+
+
+
+<div class="way">
+  <p class="text4">Way Of Building Great Software</p>
+<div class="ideas">
+ 
+    <div class="box1">
+      <p class="text5">Strategic Planning for Success</p>
+      <p class="content1"> Begin with a Vision:<span>IdeationX </span>starts<br> by aligning your software<br> goals with a<br> comprehensive strategy. Our team strategically<br> plans every step, <br>ensuring a clear roadmap to success.</p>
+    </div>
+    <div class="box2">
+      <p class="text6">Team Synergy, <br>Creative Harmony </p>
+      <p class="content2">Unified Brilliance: <span>IdeationX </span>believes in the power of collaborative minds. Our developers, designers, and experts work cohesively, fostering a creative harmony that contributes to the seamless development of great software</p>
+    </div>
+    <div class="box3">
+      <p class="text7">Agile Innovation and Constant Evolution:</p>
+      <p class="content3">Adaptable Excellence: <span>IdeationX </span>employs agile methodologies for constant innovation. Our iterative development adapts to changes swiftly, ensuring that your software evolves with your needs and stays ahead of the curve</p>
+    </div>
+  </div>
+ 
+  </div>
+  </div>
+  
+
+
+
+<div class="ideas1">
+  <p class="text9">Our <span>Approach </span>For <br>Crafting <span>Exceptional Softwares</span></p>
+ <div class="approach"></div>
+</div>
+<div class="idea1">
+  <p class="txt1">Our Development Through<br><span>IdeationX</span>  Works</p>
+  <div class="Design"></div>
+</div>
+
+
+<div class="cont1"></div>
+<div class="stacks" style="height:1400px;">
+  <p class="content5"> Our Tech Stack</p>
+  
+  <div class="container5">
+    <div class="image">
+        <img src="1_20231231_155355_0000.png" alt="">
+    </div>
+    <div class="image">
+        <img src="2_20231231_155355_0001.png" alt="">
+    </div>
+    <div class="image">
+        <img src="3_20231231_155355_0002.png" alt="">
+    </div>
+    <div class="image">
+        <img src="4_20231231_155355_0003.png" alt="">
+    </div>
+    <div class="image">
+        <img src="desktop-wallpaper-soothing-background-calm-relaxing.jpg" alt="">
+    </div>
+    <div class="image">
+      <img src="desktop-wallpaper-soothing-background-calm-relaxing.jpg" alt="">
+  </div>
+
+    <div class="button">
+        <a onclick="nextimg(-1)" class="prev">&#10094;</a>
+        <a onclick="nextimg(1)" class="next">&#10095;</a>
+    </div>
+
+    <div class="dots">
+        <span class="dot" onclick="currentSlide(1)">Backend</span>
+        <span class="dot" onclick="currentSlide(2)">Frontend</span>
+        <span class="dot" onclick="currentSlide(3)">Database</span>
+        <span class="dot" onclick="currentSlide(4)">CMS</span>
+        <span class="dot" onclick="currentSlide(5)">CloudTesting</span>
+        <span class="dot" onclick="currentSlide(5)">DevOps</span>
+    </div>
+</div>
+</div>
+
+
+<div class="hero7">
+<p class="text2"> Our Team</p>
+  <ul class="ul">
+    <li>
+      <a href=" https://www.linkedin.com/in/shashank-srivastava-jop">
+        <figure>
+          <img  class="im1"src='/css/shashank.jpg' alt='Member Details'>
+          <figcaption>Shashank Srivastva <br>Email - Shashankjop@gmail.com<br>Mob No. 965476542 </figcaption>
+        </figure>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/aastha-singh-0321a6228">
+        <figure>
+          <img  class="im1" src="/css/astha.jpg" alt='Member Details'class=im>
+          <figcaption>Aastha Singh<br>Email -aastha2000@gmail.com <br>8791023170</figcaption>
+        </figure>
+      </a>
+    </li>
+   
+    <li>
+      <a href="https://www.linkedin.com/in/anshul-shekhar-8a2921221?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+        <figure>
+          <img class="im1" src="anshul.jpg" alt='Member Details'>
+          <figcaption>Hey, My name is Anshul Singh
+            <br> Email - anshulak4158@gmail.com<br> Mob No.- 9905467366<br></figcaption>
+        </figure>
+      </a>
+    </li>
+  
+</div>
+
+<div class="blogs" id="blogs">
+<div class="feature">
+  <p class="feature1">Feature And Resources</p>
+
+
+
+  <section class="container">
+    <div class="card__container swiper">
+       <div class="card__content">
+          <div class="swiper-wrapper">
+            <article class="card__article swiper-slide">
+              <div class="card__image">
+                 <img src="ai.png" alt="image" class="card__img">
+                 <div class="card__shadow"></div>
+              </div>
+
+              <div class="card__data">
+                 <h3 class="card__name">AI's Transfomative </h3>
+                 <p class="card__description">
+                  Incorporating Artificial Intelligence (AI) has emerged as a game-changer in the ever-changing world of entrepreneurship.
+                 </p>
+
+                 <a href="https://docs.google.com/document/d/1gyH-UwU5rYnJw7zL4pvksYUHaKfZ7eMDu991-9OJKik/edit?usp=sharing" class="card__button">View More</a>
+              </div>
+           </article>
+ 
+           <article class="card__article swiper-slide">
+            <div class="card__image">
+               <img src="startup.png" alt="image" class="card__img">
+               <div class="card__shadow"></div>
+            </div>
+
+            <div class="card__data">
+               <h3 class="card__name">Startup and a Business</h3>
+               <p class="card__description">
+                Understanding the Contrast Between a Startup and a Business Understanding the Contrast Between a Startup and a Business,
+               </p>
+
+               <a href="https://docs.google.com/document/d/1uDYAD2RcXbnn7OE1vgwQcUewaCpTdhdnVWiNEOA6FvU/edit?usp=sharing" class="card__button">View More</a>
+            </div>
+         </article>
+
+
+ 
+    <article class="card__article swiper-slide">
+          <div class="card__image">
+             <img src="lap.png" alt="image" class="card__img">
+             <div class="card__shadow"></div>
+          </div>
+
+          <div class="card__data">
+             <h3 class="card__name"> Technology</h3>
+             <p class="card__description">
+              The Technology keeps forward, which makes it easier for the artist to tell their stories and paint the pistures they want
+             </p>
+
+             <a href="blog3.html" class="card__button">View More</a>
+          </div>
+       </article>
+ 
+             <article class="card__article swiper-slide">
+                <div class="card__image">
+                   <img src="lap.jpg" alt="image" class="card__img">
+                   <div class="card__shadow"></div>
+                </div>
+ 
+                <div class="card__data">
+                   <h3 class="card__name">Technology Day To Day </h3>
+                   <p class="card__description">
+                    Technology deals with different fields,
+                    Today, Our lives are far more convenient and easy,.
+                   </p>
+ 
+                   <a href="blog4.html" class="card__button">View More</a>
+                </div>
+             </article>
+
+          </div>
+   
+
+       <!-- Navigation buttons -->
+       <div class="swiper-button-next">
+          <i class="ri-arrow-right-s-line"></i>
+       </div>
+       
+       <div class="swiper-button-prev">
+          <i class="ri-arrow-left-s-line"></i>
+       </div>
+
+       <!-- Pagination -->
+       <div class="swiper-pagination"></div>
+    </div>
+ </section>
+
+</div>
+
+
+
+<div class="poster">
+  <div class="poster1"></div>
+</div>
+
+
+<footer>
+  <div class="footer-columns">
+      <div class="footer-column">
+          <h2>IdeationX</h2>
+          <p class="content-list3">ideationx.com | A pioneer Software Development Company</p>
+          <div class="social-icons">
+              <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+      </div>
+      <div class="footer-column">
+          <h2>Pages</h2>
+          <ul class="content-list">
+              <li><a href="#about">About Us</a></li>
+              <li><a href="contactform.html">Contact Us</a></li>
+              <li><a href="#service">Our Services</a></li>
+              <li><a href="#">Our Project</a></li>
+              <li><a href="#blogs">Blog</a></li>
+          </ul>
+      </div>
+      <div class="footer-column">
+          <h2>Help Link</h2>
+          <ul class="content-list2">
+            <li><a href="term.html">Terms of Service</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="#">Help</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="contactform.html">Support</a></li>
+          </ul>
+      </div>
+      <div class="footer-column">
+          <h2>Contact Us</h2>
+          <div class="content-list1">
+          <p >1st Floor, ABESIT, Ghaziabad</p>
+          <p>Email: info@ideationx.com</p>
+          <p>Phone: 9654726542, 9470218939</p>
+          </div>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+<script>
+  const checkbox = document.getElementById("checkbox")
+checkbox.addEventListener("change", () => {
+  document.body.classList.toggle("dark")
+})
+</script>
+<script>
+  
+function prev(){
+		document.getElementById('slider-container').scrollLeft -= 270;
+}
+
+function next()
+{
+		document.getElementById('slider-container').scrollLeft += 270;
+}
+
+
+$(".slide img").on("click" , function(){
+	$(this).toggleClass('zoomed');
+	$(".overlay").toggleClass('active');
+})
+
+</script>
+<script>
+  let arrow = document.querySelectorAll(".arrow");
+for (var i = 0; i < arrow.length; i++) {
+arrow[i].addEventListener("click", (e)=>{
+let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
+arrowParent.classList.toggle("showMenu");
+});
+}
+
+let sidebar = document.querySelector(".sidebar");
+let sidebarBtn = document.querySelector(".bx-menu");
+console.log(sidebarBtn);
+sidebarBtn.addEventListener("click", ()=>{
+sidebar.classList.toggle("close");
+});
+</script>
+<script>// Initialization for ES Users
+  import { Ripple, initMDB } from "mdb-ui-kit";
+  
+  initMDB({ Ripple });</script>
+
+  <script>const arrowBtns = document.querySelectorAll('.arrow-btn')
+    const cardBtns = document.querySelectorAll('.card')
+    let currentCard = 2;
+    let dir = 1;
+    moveCards()
+    
+    arrowBtns.forEach((btn,i)=>{
+      btn.onpointerenter = (e)=> gsap.to(btn, {
+        ease:'expo',
+        'box-shadow':'0 3px 4px #00000050'
+      })
+      
+      btn.onpointerleave = (e)=> gsap.to(btn, {
+        ease:'expo',
+        'box-shadow':'0 6px 8px #00000030'
+      })
+      
+      btn.onclick = (e)=> {
+        dir = (i==0)? 1:-1
+        if (i==0) {
+          currentCard--
+          currentCard = Math.max(0, currentCard)
+        }
+        else {
+          currentCard++
+          currentCard = Math.min(4, currentCard)
+        }
+        moveCards(0.75)
+      }
+    })
+    
+    cardBtns.forEach((btn,i)=>{
+      btn.onpointerenter = (e)=> gsap.to(btn, {
+        ease:'power3',
+        overwrite:'auto',
+        'box-shadow':()=>(i==currentCard)?'0 6px 11px #00000030':'0 6px 11px #00000030'
+      })
+      
+      btn.onpointerleave = (e)=> gsap.to(btn, {
+        ease:'power3',
+        overwrite:'auto',
+        'box-shadow':()=>(i==currentCard)?'0 6px 11px #00000030':'0 0px 0px #00000030'
+      })
+    
+      btn.onclick = (e)=> {
+        dir = (i<currentCard)? 1:-1
+        currentCard = i
+        moveCards(0.75)
+      }
+    })
+    
+    function moveCards(dur=0){
+      gsap.timeline({defaults:{ duration:dur, ease:'power3', stagger:{each:-0.03*dir} }})
+        .to('.card', {
+          x:-270*currentCard,
+          y:(i)=>(i==currentCard)?0:15,
+          height:(i)=>(i==currentCard)?270:240,
+          ease:'elastic.out(0.4)'
+        }, 0)
+        .to('.card', {
+          cursor:(i)=>(i==currentCard)?'default':'pointer',
+          'box-shadow':(i)=>(i==currentCard)?'0 6px 11px #00000030':'0 0px 0px #00000030',
+          border:(i)=>(i==currentCard)?'2px solid #26a':'0px solid #fff',
+          background:(i)=>(i==currentCard)?'radial-gradient(100% 100% at top, #fff 0%, #fff 99%)':'radial-gradient(100% 100% at top, #fff 20%, #eee 175%)',
+          ease:'expo'
+        }, 0)
+        .to('.icon svg', {
+          attr:{
+            stroke:(i)=>(i==currentCard)?'transparent':'#36a',  
+            fill:(i)=>(i==currentCard)?'#36a':'transparent'
+          }
+        }, 0)
+        .to('.arrow-btn-prev', {
+          autoAlpha:(currentCard==0)?0:1
+        }, 0)
+        .to('.arrow-btn-next', {
+          autoAlpha:(currentCard==4)?0:1
+        }, 0)
+        .to('.card h4', {
+          y:(i)=>(i==currentCard)?0:8,    
+          opacity:(i)=>(i==currentCard)?1:0,
+        }, 0)
+    }</script>
+
+
+
+<script>
+  var i = 0;
+  let slides = document.querySelectorAll(".slide");
+  let slider = document.querySelector(".slider");
+  var pause = false;
+  function moveRight() {
+    slides[i].className = "slide";
+    i = (i + 1) % slides.length;
+    slides[i].className = "slide active";
+    let Xvalue = -160 * i;
+    slider.style.transform = `translateX(${Xvalue}px)`;
+  }
+  function moveLeft() {
+    slides[i].className = "slide";
+    i = (i - 1 + slides.length) % slides.length;
+    slides[i].className = "slide active";
+    let Xvalue = -160 * i;
+    slider.style.transform = `translateX(${Xvalue}px)`;
+  }
+
+  const interval = setInterval(() => {
+    if (!pause) {
+      moveRight();
+    }
+  }, 2000);
+
+  function playPause() {
+    let state = document.querySelector(".icon");
+    if (state.innerHTML == "pause") {
+      state.innerHTML = "play_arrow";
+      pause = true;
+    } else {
+      state.innerHTML = "pause";
+      pause = false;
+    }
+  }
+</script>
+
+
+<script>
+
+  var imageno =1;
+  displayimg(imageno);
+
+  function nextimg(n){
+      displayimg(imageno += n)
+  }
+
+  function currentSlide(n){
+      displayimg(imageno = n)
+  }
+
+  function displayimg(n){
+      var i;
+      var image = document.getElementsByClassName("image");
+      var dots = document.getElementsByClassName("dot");
+
+      if(n > image.length){
+          imageno = 1;
+      }
+
+      if(n < 1){
+          imageno = image.length;
+      }
+
+      for(i=0; i < image.length; i++){
+          image[i].style.display = "none";
+      }
+
+      for(i=0; i < dots.length; i++){
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+
+      image[imageno - 1].style.display ="block";
+      dots[imageno - 1].className += " active";
+
+  }
+</script>
+
+
+<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'></script><script  src="script.js"></script>
+<script src="/js/swiper-bundle.min.js"></script>
+
+<!--=============== MAIN JS ===============-->
+<script src="/js/main.js"></script>
+
+
+</body>
+</html>
